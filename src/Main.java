@@ -13,6 +13,10 @@ public class Main {
             System.out.println("It's not a prime number");
         }
 
+        // Sum of all odd numbers
+        int sumOfOdd = SumOddRange.sumOdd(1, 100);
+        System.out.println("Sum of all odd numbers between the range provided = " + sumOfOdd);
+
 
     }
 
