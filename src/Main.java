@@ -17,7 +17,9 @@ public class Main {
         int sumOfOdd = SumOddRange.sumOdd(1, 100);
         System.out.println("Sum of all odd numbers between the range provided = " + sumOfOdd);
 
-
+        // Sum of digits
+        int sum = DigitSum.sumOfDigits(125);
+        System.out.println(sum);
     }
 
 }
