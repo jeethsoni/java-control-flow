@@ -31,7 +31,7 @@ public class Main {
 
         // Sum of first and last digit
         int lastFirstSum = FirstLastDigitSum.sumFirstLast(5);
-        System.out.println(lastFirstSum);
+        System.out.println( "Sum of first and last digit of the number provided is " + lastFirstSum);
     }
 
 }
