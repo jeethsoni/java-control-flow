@@ -28,6 +28,10 @@ public class Main {
         }else {
             System.out.println("The number provided is not a palindrome");
         }
+
+        // Sum of first and last digit
+        int lastFirstSum = FirstLastDigitSum.sumFirstLast(5);
+        System.out.println(lastFirstSum);
     }
 
 }
