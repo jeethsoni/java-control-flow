@@ -20,6 +20,14 @@ public class Main {
         // Sum of digits
         int sum = DigitSum.sumOfDigits(125);
         System.out.println(sum);
+
+        // number palindrome
+        boolean isPalindrome = NumberPalindrome.isPalindrome(708);
+        if (isPalindrome){
+            System.out.println("The number provided is a Palindrome");
+        }else {
+            System.out.println("The number provided is not a palindrome");
+        }
     }
 
 }
