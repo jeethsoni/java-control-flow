@@ -32,6 +32,14 @@ public class Main {
         // Sum of first and last digit
         int lastFirstSum = FirstLastDigitSum.sumFirstLast(5);
         System.out.println( "Sum of first and last digit of the number provided is " + lastFirstSum);
+
+        // Greatest common divisor
+        int greatestDivisor = GreatestCommonDivisor.getGreatestCommonDivisor(15, 25);
+        System.out.println(greatestDivisor);
+
+        // Largest Prime factor
+        int largestPrime = LargestPrime.getLargestPrime(21);
+        System.out.println(largestPrime);
     }
 
 }
