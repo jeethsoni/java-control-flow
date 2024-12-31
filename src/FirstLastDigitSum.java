@@ -1,13 +1,13 @@
 public class FirstLastDigitSum {
-    public static int sumFirstLast (int number){
+    public static int sumFirstLast(int number) {
 
         // Checks if the number is negative
-        if (number < 0){
+        if (number < 0) {
             return -1;
         }
 
         int lastDigit = number % 10;  // extracts last digit
-        while (number >= 10){
+        while (number >= 10) {
             number = number / 10; // Divides number by 10
         }
 
