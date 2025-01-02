@@ -19,4 +19,9 @@ public class LargestPrime {
             }
             return largestPrime;
         }
+    public static void main(String[] args) {
+        // Largest Prime factor
+        int largestPrime = LargestPrime.getLargestPrime(21);
+        System.out.println(largestPrime);
+    }
 }

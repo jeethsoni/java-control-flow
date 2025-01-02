@@ -1,8 +1,10 @@
+import java.util.Scanner;
+
 public class PrimeNumber {
     public static boolean isPrimeNumber(int number) {
 
         // number less than 2, return false
-        if(number < 2){
+        if (number < 2) {
             return false;
         }
 
@@ -13,5 +15,21 @@ public class PrimeNumber {
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Printing if a number is prime or not
+        boolean isPrime = PrimeNumber.isPrimeNumber(number);
+        if (isPrime) {
+            System.out.println("It's a prime number");
+        } else {
+            System.out.println("It's not a prime number");
+        }
     }
 }

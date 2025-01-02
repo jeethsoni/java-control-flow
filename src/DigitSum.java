@@ -1,3 +1,6 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class DigitSum {
     public static int sumOfDigits(int number) {
         if (number < 0) {
@@ -12,5 +15,23 @@ public class DigitSum {
         }
 
         return sum;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+
+        // Try and catch to catch decimal input
+        try {
+            // user input
+            int number = sc.nextInt();
+
+            // Sum of digits
+            int sum = DigitSum.sumOfDigits(number);
+            System.out.println("Sum of all digits is: " + sum);
+        }catch (InputMismatchException e){
+            System.out.println("Sorry Only whole numbers are allowed");
+        }
     }
 }

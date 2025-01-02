@@ -14,4 +14,12 @@ public class FirstLastDigitSum {
         int firstDigit = number; // set first digit to last number left
         return lastDigit + firstDigit; // addition of numbers
     }
+
+    public static void main(String[] args) {
+
+
+        // Sum of first and last digit
+        int lastFirstSum = FirstLastDigitSum.sumFirstLast(5);
+        System.out.println("Sum of first and last digit of the number provided is " + lastFirstSum);
+    }
 }
